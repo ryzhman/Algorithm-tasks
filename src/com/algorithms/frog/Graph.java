@@ -1,21 +1,21 @@
 package com.algorithms.frog;
 
-import java.util.List;
+import java.util.Set;
 
 public class Graph {
-  private final List<Vertex> vertexes;
-  private final List<Edge> edges;
+  private final Set<Vertex> vertexes;
+  private final Set<Edge> edges;
 
-  public Graph(List<Vertex> vertexes, List<Edge> edges) {
+  public Graph(Set<Vertex> vertexes, Set<Edge> edges) {
     this.vertexes = vertexes;
     this.edges = edges;
   }
 
-  public List<Vertex> getVertexes() {
+  public Set<Vertex> getVertexes() {
     return vertexes;
   }
 
-  public List<Edge> getEdges() {
+  public Set<Edge> getEdges() {
     return edges;
   }
   

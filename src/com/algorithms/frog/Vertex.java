@@ -1,8 +1,8 @@
 package com.algorithms.frog;
 
 public class Vertex {
-	final private Integer posX;
-	final private Integer posY;
+	private Integer posX;
+	private Integer posY;
 
 	public Vertex(int posX, int posY) {
 		this.posX = posX;
@@ -11,6 +11,10 @@ public class Vertex {
 	
 	public Integer getPosX() {
 		return posX;
+	}
+	
+	public void setPosX(int x){
+		posX=x;
 	}
 
 	public Integer getPosY() {
